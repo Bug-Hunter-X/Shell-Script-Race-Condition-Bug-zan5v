@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a shell script.  Two background processes write to files concurrently, resulting in potential data loss or interleaving when the files are concatenated. The solution introduces file locking to prevent concurrent access.
